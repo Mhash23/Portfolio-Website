@@ -1,0 +1,684 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+<meta charset="UTF-8">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Meenaz Hashmi | Portfolio</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+
+<body>
+
+
+<!-- Navigation Bar -->
+
+<div class="Navbar">
+
+<a class="active" href="#Home">Home</a>
+
+<a href="#Slideshow">Slideshow</a>
+
+<a href="#About">About</a>
+
+<a href="#Projects">Projects</a>
+
+<a href="#GitHub">GitHub</a>
+
+<a onclick="openForm()">Contact</a>
+
+</div>
+
+
+
+<!-- Home Section With Video Background -->
+
+<div id="Home">
+
+
+<video autoplay muted loop id="Typing_Video">
+
+<source src="images/video/Typing.mp4" type="video/mp4">
+
+Your browser does not support HTML5 video.
+
+</video>
+
+
+
+<div class="Video_Text">
+
+
+<h1>
+Meenaz Hashmi's Portfolio
+</h1>
+
+
+<p>
+
+Web Developer | HTML | CSS | Responsive Design
+
+<br><br>
+
+Welcome to my portfolio website.
+
+I enjoy creating clean, modern and responsive websites.
+
+<br>
+
+Thank you for visiting!
+
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+<!-- Slideshow Section -->
+
+
+<div id="Slideshow">
+
+
+<h1 class="center">
+My Skills & Projects
+</h1>
+
+
+<div class="slideshow-container">
+
+
+
+<div class="mySlides fade">
+
+<img class="Slideshow_Images" 
+src="images/profile.jpg">
+
+<div class="text">
+
+Hello! I am Meenaz Hashmi
+
+</div>
+
+</div>
+
+
+
+
+<div class="mySlides fade">
+
+<img class="Slideshow_Images"
+src="images/html-css.jpg">
+
+<div class="text">
+
+HTML and CSS Responsive Web Development
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="mySlides fade">
+
+<img class="Slideshow_Images"
+src="images/petshop.jpg">
+
+<div class="text">
+
+Pet Shop Website Project
+
+</div>
+
+</div>
+
+
+
+
+
+<div class="mySlides fade">
+
+<img class="Slideshow_Images"
+src="images/onepage.jpg">
+
+<div class="text">
+
+One Page Website Project
+
+</div>
+
+</div>
+
+
+
+
+<a class="Previous"
+onclick="plusSlides(-1)">
+&#10094;
+</a>
+
+
+<a class="Next"
+onclick="plusSlides(1)">
+&#10095;
+</a>
+
+
+
+</div>
+
+
+
+<br>
+
+
+<div style="text-align:center">
+
+
+<span class="dot"
+onclick="currentSlide(1)">
+</span>
+
+
+<span class="dot"
+onclick="currentSlide(2)">
+</span>
+
+
+<span class="dot"
+onclick="currentSlide(3)">
+</span>
+
+
+<span class="dot"
+onclick="currentSlide(4)">
+</span>
+
+
+</div>
+
+
+</div>
+</div>
+
+
+<!-- About Section -->
+
+<div class="Row" id="About">
+
+
+<!-- Left Column -->
+
+<div class="Column_2">
+
+<img src="images/development.jpg" alt="Web Development">
+
+</div>
+
+
+
+<!-- Right Column -->
+
+<div class="Column_1">
+
+
+<h1>About Me</h1>
+
+
+<p>
+
+Hello! My name is <strong>Meenaz Hashmi</strong>.
+
+<br><br>
+
+I am a Web Developer learning HTML, CSS, and JavaScript while building responsive websites.
+
+I enjoy creating clean, modern designs and improving my front-end development skills.
+
+<br><br>
+
+My goal is to create user-friendly websites and continue growing as a professional developer.
+
+<br><br>
+
+I have experience working with:
+
+<br><br>
+
+<strong>
+HTML | CSS | JavaScript | SQL | Responsive Web Design
+</strong>
+
+</p>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+<!-- Projects Section -->
+
+
+<div id="Projects">
+
+
+<h1 class="center">
+My Projects
+</h1>
+
+
+
+<div class="projects">
+
+
+
+
+
+<!-- Project 1 -->
+
+
+<div class="card">
+
+
+<img src="images/petshop.jpg"
+alt="Pet Shop Website">
+
+
+<div class="card-content">
+
+
+<h2>
+Pet Shop Website
+</h2>
+
+
+<p>
+
+A responsive pet shop website built using HTML and CSS.
+
+</p>
+
+
+
+<a class="btn"
+
+href="https://github.com/Mhash23/HTML-and-CSS-Projects/tree/main/The-Pet-Shop-Website"
+
+target="_blank">
+
+View Project
+
+</a>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+<!-- Project 2 -->
+
+
+<div class="card">
+
+
+<img src="images/onepage.jpg"
+
+alt="One Page Website">
+
+
+<div class="card-content">
+
+
+<h2>
+One Page Website
+</h2>
+
+
+<p>
+
+A clean and modern one-page responsive website created using HTML and CSS.
+
+</p>
+
+
+
+<a class="btn"
+
+href="https://github.com/Mhash23/HTML-and-CSS-Projects/tree/main/One-Page%20Website"
+
+target="_blank">
+
+View Project
+
+</a>
+
+
+</div>
+
+
+</div>
+
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- GitHub Section -->
+
+
+<div class="Row" id="GitHub">
+
+
+
+<!-- Left Column -->
+
+
+<div class="Column_1">
+
+
+<h1>
+GitHub
+</h1>
+
+
+
+<p>
+
+You can view my coding projects and web development work on my GitHub profile:
+
+</p>
+
+
+
+<br>
+
+
+<p class="center">
+
+
+<a href="https://github.com/Mhash23"
+
+target="_blank">
+
+github.com/Mhash23
+
+</a>
+
+
+</p>
+
+
+</div>
+
+
+
+
+
+<!-- Right Column -->
+
+
+<div class="Column_2">
+
+
+<a href="https://github.com/Mhash23"
+
+target="_blank">
+
+
+<img src="images/github.png"
+
+alt="GitHub">
+
+
+</a>
+
+
+</div>
+
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Contact Section -->
+
+
+<div id="Contact">
+
+
+
+<button onclick="openForm()"
+
+class="Pop_Up_Button">
+
+CONTACT
+
+</button>
+
+
+
+
+
+<div class="form-popup"
+
+id="myForm">
+
+
+
+<form class="form-container"
+
+action="https://formspree.io/f/YOUR_FORM_ID"
+
+method="POST">
+
+
+
+
+
+<h1>
+Contact Me
+</h1>
+
+
+
+
+<label>
+<b>Name</b>
+</label>
+
+
+<input 
+
+type="text"
+
+placeholder="Enter your name"
+
+name="name"
+
+required>
+
+
+
+
+
+
+
+<label>
+
+<b>Email</b>
+
+</label>
+
+
+<input
+
+type="email"
+
+placeholder="Enter your email"
+
+name="email"
+
+required>
+
+
+
+
+
+
+
+<label>
+
+<b>Message</b>
+
+</label>
+
+
+<textarea
+
+placeholder="Write your message"
+
+name="message">
+
+</textarea>
+
+
+
+
+
+
+
+<button 
+
+type="submit"
+
+class="btn">
+
+SEND
+
+</button>
+
+
+
+
+
+<button
+
+type="button"
+
+class="btn cancel"
+
+onclick="closeForm()">
+
+CLOSE
+
+</button>
+
+
+
+</form>
+
+
+</div>
+
+
+</div>
+
+
+
+
+
+
+
+
+
+<!-- Footer -->
+
+
+<footer>
+
+
+<p>
+
+© 2026 Meenaz Hashmi. All Rights Reserved.
+
+</p>
+
+
+
+<br>
+
+
+
+<p>
+
+Email:
+
+<a href="mailto:meenazz.hashmi@gmail.com">
+
+meenazz.hashmi@gmail.com
+
+</a>
+
+</p>
+
+
+
+</footer>
+
+
+
+
+
+<script src="script.js"></script>
+
+
+</body>
+
+
+</html>
